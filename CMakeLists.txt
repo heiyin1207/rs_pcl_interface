@@ -25,6 +25,10 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/ResetPointCloud.srv"
   "srv/TakeSnapshot.srv"
   "srv/SavePointCloud.srv"  
+  "srv/MoveRobotJoint.srv"
+  "srv/MoveRobotJointOffset.srv"
+  "srv/MoveRobotTcp.srv"
+  "srv/MoveRobotTcpOffset.srv"
 )
 
 if(BUILD_TESTING)
