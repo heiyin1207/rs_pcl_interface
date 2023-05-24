@@ -29,6 +29,9 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/MoveRobotJointOffset.srv"
   "srv/MoveRobotTcp.srv"
   "srv/MoveRobotTcpOffset.srv"
+  "msg/PosJnt.msg"
+  "msg/PosWorld.msg"
+  "msg/RobotCurrPos.msg"
 )
 
 if(BUILD_TESTING)
