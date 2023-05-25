@@ -4,5 +4,6 @@ float32 z
 float32 rx
 float32 ry
 float32 rz
+int32 speed
 ---
 bool success
