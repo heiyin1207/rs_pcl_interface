@@ -32,6 +32,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/PosJnt.msg"
   "msg/PosWorld.msg"
   "msg/RobotCurrPos.msg"
+  "msg/RobotCurrStatus.msg"
 )
 
 if(BUILD_TESTING)
