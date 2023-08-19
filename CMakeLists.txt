@@ -33,6 +33,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/PosWorld.msg"
   "msg/RobotCurrPos.msg"
   "msg/RobotCurrStatus.msg"
+  "srv/CalibratePcd.srv"
+  "srv/ComputePrintVolume.srv"
 )
 
 if(BUILD_TESTING)
