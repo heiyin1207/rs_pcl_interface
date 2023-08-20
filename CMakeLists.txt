@@ -35,6 +35,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/RobotCurrStatus.msg"
   "srv/CalibratePcd.srv"
   "srv/ComputePrintVolume.srv"
+  "srv/PC2ToolPath.srv"
 )
 
 if(BUILD_TESTING)
