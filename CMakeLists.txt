@@ -38,6 +38,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/PC2ToolPath.srv"
   "srv/ScanObject.srv"
   "srv/ExecutePrintPath.srv"
+  "srv/LoadPlyFile.srv"
 )
 
 if(BUILD_TESTING)
