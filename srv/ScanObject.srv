@@ -1,4 +1,6 @@
-float32 x
-float32 y
 int32 speed
+float32 opti_target_x 
+float32 opti_target_y
+float32 opti_robot_x
+float32 opti_robot_y
 ---
