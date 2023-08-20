@@ -36,6 +36,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/CalibratePcd.srv"
   "srv/ComputePrintVolume.srv"
   "srv/PC2ToolPath.srv"
+  "srv/ScanObject.srv"
+  "srv/ExecutePrintPath.srv"
 )
 
 if(BUILD_TESTING)

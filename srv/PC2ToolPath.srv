@@ -1,3 +1,4 @@
 float32 smooth_factor
+float32 zigzag_seperation
 ---
 bool success
